@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+    justify-items: center;
+    align-items: center;
+    font-size: large;
+}
+.centered{
+ margin-top: 25%;
+}
+.centered h1{
+    color: #008cff;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    padding: 12px 0 12px 0;
+    width: 80%;
+    background-color: #008cff;
+    border-radius: 12px;
+    color: #ffffff;
+}
+
+.btn1{
+    background-color: gray;
+}
+.btn:hover{
+    opacity: 0.3;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35vh;
+    padding: 10px 10px 0 0;
+    text-align: center;
+    border-top: solid 1px rgba(0, 0, 0, 0.3);
+}
+.footer-business{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1vh;
+    padding-top: 20px;
+    text-align: center;
+    border-top: solid 1px rgba(0, 0, 0, 0.3);
+} 
+
+.footer a{
+    text-decoration: none;
+    color: #008cff;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px ;
+    color: #008cff;
+}
+.header-img{
+    width: 30vw;
+    height: 5vh;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 10px;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    color: #008cff;
+}
+.project{
+    padding: 5px 15px;
+    margin: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.project img{
+    height: 20vh;
+    width: 45vw;
+}
+.footer-business{
+    margin: 10vh 0;
+}
